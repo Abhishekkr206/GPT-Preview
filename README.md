@@ -1,7 +1,7 @@
 # GPT-Preview
 
 <p align="center">
-  <img src="./GptPreview-landingPage/public/img.png" alt="GPTCodePreview Architecture" width="200" />
+  <img src="./GptPreview-landingPage/public/gptPreview.png" alt="GPTCodePreview Architecture" width="250" />
 </p>
 
 A Chrome extension and preview website that adds Quick Preview and Full Preview buttons to code blocks on AI chat platforms allowing users to safely preview HTML CSS and JavaScript output in a sandboxed environment

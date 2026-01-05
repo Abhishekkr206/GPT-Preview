@@ -2,14 +2,18 @@
   "manifest_version": 3,
   "name": "Demo Extension",
   "version": "1.0",
-  "description": "Just a demo to check extension injection.",
-  "permissions": ["activeTab", "scripting"],
-  "host_permissions": ["<all_urls>"],
+
+  "permissions": ["tabs"],
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"],
-      "css": ["styles.css"],
       "run_at": "document_idle"
     }
   ]

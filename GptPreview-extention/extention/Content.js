@@ -241,7 +241,7 @@ const attachPreviewButtons = () => {
         (res) => {
           if (!res || res.error) return;
           window.open(
-            `${res.baseUrl || "http://localhost:5173"}?id=${res.previewID}`
+            `https://gptpreview.vercel.app?id=${res.previewID}`
           );
         }
       );

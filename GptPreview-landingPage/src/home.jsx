@@ -14,7 +14,7 @@ import {
 
 const LandingPage = () => {
   return (
-    <div className="bg-white text-slate-900 font-sans selection:bg-slate-100">
+    <div className="bg-white text-slate-900 font-sans selection:bg-black/30">
       
       {/* Navbar */}
       <nav className="fixed w-full border-b border-slate-100 bg-white/80 backdrop-blur-md z-50">
@@ -37,7 +37,7 @@ const LandingPage = () => {
       </nav>
 
       {/* Hero Section - NOW FULL SCREEN */}
-      <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-16 relative">
+      <section id='hero' className="min-h-screen flex flex-col justify-center items-center px-6 pt-16 relative">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200 text-xs font-medium text-slate-600 mb-4">
             <span className="w-2 h-2 rounded-full bg-green-500"></span>

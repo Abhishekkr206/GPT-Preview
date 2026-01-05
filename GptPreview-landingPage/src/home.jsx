@@ -61,7 +61,7 @@ const LandingPage = () => {
                 </button>
             </a>
             <a href="https://github.com/Abhishekkr206/GPT-Preview">
-                <button className="flex items-center gap-2 px-8 py-3 rounded-lg font-medium text-slate-600 hover:bg-slate-50 transition-all border border-transparent hover:border-slate-200">
+                <button className="flex items-center gap-2 px-8 py-3 rounded-lg font-medium text-slate-600 bg-white hover:bg-slate-50 transition-all border border-slate-100 hover:border-slate-200">
                   View on GitHub
                  </button>
             </a>
@@ -102,7 +102,7 @@ const LandingPage = () => {
             
             {/* Visual Representation */}
             <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-slate-200 to-slate-100 rounded-2xl blur opacity-50 group-hover:opacity-75 transition duration-1000"></div>
+            <div className="absolute -inset-1 from-slate-200 to-slate-100 rounded-2xl blur opacity-50 group-hover:opacity-75 transition duration-1000"></div>
               <div className="relative bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-4">
                 <div className="flex items-center gap-2 border-b border-slate-100 pb-4">
                   <div className="w-3 h-3 rounded-full bg-red-400"></div>

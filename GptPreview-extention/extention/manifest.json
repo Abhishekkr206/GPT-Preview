@@ -1,9 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Demo Extension",
-  "version": "1.0",
+  "name": "GPT-Preview",
+  "version": "1.5",
+  "description": "Adds quick and full preview buttons to code blocks on AI chat platforms, allowing users to safely preview HTML, CSS, and JavaScript output in a sandboxed environment.",
 
-  "permissions": ["tabs"],
+  "permissions": [
+    "tabs"
+  ],
 
   "background": {
     "service_worker": "background.js",
@@ -16,5 +19,9 @@
       "js": ["content.js"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+
+  "icons": {
+    "128": "icons/img.png"
+  }
 }
